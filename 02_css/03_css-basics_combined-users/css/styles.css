@@ -65,12 +65,14 @@ ul .user .location {
   font-size: 12px;
   color: darkslategray;
   margin: 6px 0;
+  display: none;
 }
 
 .location {
   font-size: 10px;
   font-weight: 600;
   text-align: end;
+  color: darkslategray;
   margin: 0;
 }
 

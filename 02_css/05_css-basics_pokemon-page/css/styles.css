@@ -42,8 +42,6 @@ h1, h2 {
   margin-top: 0;
   padding: 10px;
   text-align: center;
-  border-left: solid 3px gold;
-  border-right: solid 3px gold;
 }
 
 /* ------- Sections ------- */
@@ -80,7 +78,16 @@ section.favourites {
 
 .subtitle {
   /* your solution */
+  border-left: solid 3px gold;
+  border-right: solid 3px gold;
+  padding-left: 1rem;
+  display: inline-block;
 }
+
+.favourites .subtitle {
+  border-color: orange;
+}
+
 
 /* ------- List ------- */
 

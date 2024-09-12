@@ -59,6 +59,7 @@ h1 {
   margin: auto;
 }
 
+/* relative Einheit für width */
 .box--one {
   background-color: lightblue;
 
@@ -66,6 +67,7 @@ h1 {
   height: 100px;
 }
 
+/* Breite wechseln je viewport Breite -> media queries */
 .box--two {
   background-color: lightgreen;
 
@@ -85,7 +87,7 @@ h1 {
   }
 }
 
-
+/* Viewport oriantation ändern */
 .box--three {
   background-color: lightpink;
 
@@ -100,7 +102,7 @@ h1 {
   }
 }
 
-
+/* darkmode */
 .box--four {
   background-color: lightgray;
 
@@ -115,6 +117,7 @@ h1 {
   }
 }
 
+/* Änderungen für Box 5 in index.html -> picture element */
 .box--five {
   width: 100%;
 }

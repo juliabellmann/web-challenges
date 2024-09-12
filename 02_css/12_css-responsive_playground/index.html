@@ -51,19 +51,15 @@
             above 599px and above 1199px. Take a look at the img folder -
             there's some material in there.
           </p>
-          <div class="box box--five">
-            <picture>
-              <source
-                srcset="./img/cat_large.jpg"
-                media="(min-width: 1200px)"
-              />
-              <source
-                srcset="./img/cat_medium.jpg"
-                media="(min-width: 600px)"
-              />
-              <img src="./img/cat_small.jpg" alt="example" />
-            </picture>
-          </div>
+            <div class="box box--five">
+              <picture>
+                <!-- Perhaps you may want to use the <picture> Element here? -->
+                  <!-- auf Reihenfolge achten: -->
+                <source media="(min-width: 1199px)" srcset="img/cat_large.jpg" alt="A lage cat" />
+                <source media="(min-width: 599px)" srcset="img/cat_medium.jpg" alt="A medium cat" />
+                <img src="img/cat_small.jpg" alt="A cat" />
+              </picture> 
+            </div>
         </section>
       </section>
     </main>
