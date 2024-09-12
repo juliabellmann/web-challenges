@@ -11,7 +11,12 @@ console.clear();
 
 // --v-- write your code here --v--
 
-let title = "Titel";
+const title = "Titel";
+const text = "Txt";
+let numberOfLikes = 3;
+const creator = "Julia";
+const isReported = true;
+
 // --^-- write your code here --^--
 
 /*
@@ -19,5 +24,12 @@ let title = "Titel";
 */
 
 // --v-- write your code here --v--
+console.log(title);
+console.log(text);
+console.log(numberOfLikes);
+console.log(creator);
+console.log(isReported);
 
+numberOfLikes += 1;
+console.log(numberOfLikes);
 // --^-- write your code here --^--
